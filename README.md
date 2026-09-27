@@ -1,7 +1,7 @@
 # Focus Plan Builder
 
-**Name:** [YOUR NAME HERE]
-**Assignment:** Focus Plan Builder — single-screen Jetpack Compose app
+**Name:** Patrick Kola
+**Assignment:** Focus Plan Builder 
 
 ## Description
 
@@ -34,9 +34,7 @@ the parts of the UI that read that piece of state.
 
 ## Generative-AI assistance
 
-[STATE HERE WHAT YOU USED — e.g.: "Claude (Anthropic) was used to scaffold
-the Compose UI, validation logic, unit tests, and this README. All code was
-reviewed, run, and tested by me before submission."]
+I used Claude to help me generate comments and help me format my code well so it is easily readable and understandable. It also helped me with writing the README as to making my job more efficient and quicker. Of course, it helped me write it, not answer the questions.
 
 ---
 
