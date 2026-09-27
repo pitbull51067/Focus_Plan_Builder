@@ -28,7 +28,7 @@ and a recommended break length, along with a plain-language summary sentence.
 
 `FocusPlanRoute` owns the state (`subject`, `minutesText` via
 `rememberSaveable`; `plan` via `remember`), derives `canCreatePlan` on every
-recomposition, and builds the `FocusPlan`. `FocusPlanScreen` is stateless —
+recomposition, and builds the `FocusPlan`. `FocusPlanScreen` is stateless,
 it only receives values as parameters and reports actions through callbacks.
 Whenever `subject`, `minutesText`, or `plan` changes, Compose recomposes only
 the parts of the UI that read that piece of state.
