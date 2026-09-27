@@ -59,7 +59,7 @@ class FocusPlanLogicTest {
         assertEquals(15, recommendedBreak(180))
     }
 
-    // --- toIntOrNull safety (mirrors what the UI relies on) -----------------
+   
 
     @Test
     fun toIntOrNull_onNonNumericInput_returnsNullInsteadOfCrashing() {

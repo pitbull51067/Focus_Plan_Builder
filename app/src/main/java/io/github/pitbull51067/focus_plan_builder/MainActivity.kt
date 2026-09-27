@@ -89,14 +89,12 @@ fun FocusPlanRoute(modifier: Modifier = Modifier) {
     var subject by rememberSaveable { mutableStateOf("") }
     var minutesText by rememberSaveable { mutableStateOf("") }
 
-    // The generated plan does NOT need to survive rotation per the spec,
-    // so plain `remember` is enough here.
     var plan by remember { mutableStateOf<FocusPlan?>(null) }
 
     // Never call toInt() directly on user input -- toIntOrNull() can't crash.
     val minutes: Int? = minutesText.toIntOrNull()
 
-    // Derived, not a separately-tracked mutable Boolean.
+
     val canCreatePlan = subject.isNotBlank() && minutes != null && minutes in 10..180
 
     FocusPlanScreen(
