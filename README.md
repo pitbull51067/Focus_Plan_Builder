@@ -21,7 +21,8 @@ and a recommended break length, along with a plain-language summary sentence.
 
 ## Screenshot
 
-[`![Focus Plan Builder Screenshot](Screenshot.png)`]
+![Focus Plan Builder Screenshot](Screenshot.png)
+
 
 ## State and recomposition
 
